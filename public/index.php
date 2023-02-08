@@ -11,6 +11,6 @@ $init = new Core;
 $pattern = '/\d+/';
 $str = 'PHP first released in 8 June 1995';
 
-if (preg_match($pattern, $str, $matches)) {
+/* if (preg_match($pattern, $str, $matches)) {
     print_r($matches);
-}
+} */
